@@ -24,7 +24,7 @@ git commit -m "Auto commit: %timestamp%"
 
 REM Push to GitHub
 echo Pushing to GitHub...
-git push origin main
+git push -u origin main
 
 echo.
 echo ========================================
