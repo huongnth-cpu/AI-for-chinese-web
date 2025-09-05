@@ -1,80 +1,35 @@
 @echo off
 echo ========================================
-echo    PUSH TO GITHUB - LAW SEARCH SYSTEM
+echo   Push to GitHub
 echo ========================================
 echo.
 
-REM Check if git is initialized
-if not exist ".git" (
-    echo Initializing git repository...
-    git init
-    echo.
-)
+REM Set Git configuration
+git config user.email "huongnth@vaa.edu.vn"
+git config user.name "huongnth-cpu"
 
-REM Add all files to staging
-echo Adding files to staging...
+REM Add all files
+echo Adding files...
 git add .
-echo.
 
-REM Check if there are changes to commit
-git diff --cached --quiet
-if %errorlevel% equ 0 (
-    echo No changes to commit.
-    echo.
-    pause
-    exit /b 0
-)
-
-REM Get commit message from user
-set /p commit_msg="Enter commit message (or press Enter for default): "
-if "%commit_msg%"=="" (
-    set commit_msg=Update law search system
-)
+REM Get current date and time for commit message
+for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
+set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
+set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
+set "timestamp=%YYYY%-%MM%-%DD% %HH%:%Min%:%Sec%"
 
 REM Commit changes
-echo Committing changes...
-git commit -m "%commit_msg%"
-echo.
-
-REM Check if remote origin exists
-git remote get-url origin >nul 2>&1
-if %errorlevel% neq 0 (
-    echo No remote origin found. Please add remote repository:
-    echo git remote add origin https://github.com/username/viet-tai-law-ai.git
-    echo.
-    pause
-    exit /b 1
-)
+echo Committing with timestamp: %timestamp%
+git commit -m "Auto commit: %timestamp%"
 
 REM Push to GitHub
 echo Pushing to GitHub...
 git push origin main
-if %errorlevel% equ 0 (
-    echo.
-    echo ========================================
-    echo    SUCCESS: Pushed to GitHub!
-    echo ========================================
-) else (
-    echo.
-    echo ========================================
-    echo    ERROR: Failed to push to GitHub
-    echo ========================================
-    echo.
-    echo Trying to push to master branch...
-    git push origin master
-    if %errorlevel% equ 0 (
-        echo.
-        echo ========================================
-        echo    SUCCESS: Pushed to master branch!
-        echo ========================================
-    ) else (
-        echo.
-        echo ========================================
-        echo    ERROR: Failed to push to any branch
-        echo ========================================
-    )
-)
 
 echo.
-echo Press any key to exit...
-pause >nul
+echo ========================================
+echo   Successfully pushed to GitHub!
+echo ========================================
+echo Repository: https://github.com/huongnth-cpu/viet-tai-law-ai.git
+echo.
+pause
