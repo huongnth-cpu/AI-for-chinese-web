@@ -1,8 +1,8 @@
-# Hệ thống Tra cứu Luật Lao động cho Người Việt tại Đài Loan
+# AI for Chinese Web - Law Search System
 
-## 🎯 Mô tả dự án
+## 🎯 Project Overview
 
-Hệ thống tra cứu thông tin pháp luật lao động dễ sử dụng cho người Việt Nam có trình độ tiếng Trung kém tại Đài Loan. Hệ thống sử dụng AI để dịch thuật và giải thích các văn bản luật pháp từ tiếng Trung sang tiếng Việt.
+An AI-powered law search system designed to help Vietnamese workers in Taiwan understand labor laws through intelligent translation and search capabilities. The system provides easy access to legal information with Vietnamese translations and explanations.
 
 ## ✨ Tính năng chính
 
@@ -280,6 +280,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 **Made with ❤️ for Vietnamese workers in Taiwan**
 No changes to commit. Creating initial commit...
 - AI translation (Chinese to Vietnamese
+- Legal terms dictionary 
+- User-friendly interface 
+ 
+## Setup 
+1. Clone the repository 
+2. Run docker-compose up 
+3. Access the application at http://localhost:3000 
 - Legal terms dictionary 
 - User-friendly interface 
  

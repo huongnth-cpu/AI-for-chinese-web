@@ -1,0 +1,151 @@
+{
+  "sample_translations": [
+    {
+      "id": 1,
+      "law_type": "勞動基準法",
+      "article_number": "第21條",
+      "title_zh": "工資給付",
+      "title_vi": "Trả lương",
+      "content_zh": "工資由勞雇雙方議定之。但不得低於基本工資。",
+      "content_vi": "Tiền lương được thỏa thuận giữa người lao động và người sử dụng lao động. Tuy nhiên, không được thấp hơn mức lương cơ bản.",
+      "difficulty_level": 2,
+      "key_terms": ["工資", "勞雇雙方", "基本工資"],
+      "translation_quality": "excellent",
+      "notes": "Điều luật cơ bản về trả lương, rất quan trọng cho người lao động"
+    },
+    {
+      "id": 2,
+      "law_type": "勞動基準法",
+      "article_number": "第22條",
+      "title_zh": "工資給付方式",
+      "title_vi": "Phương thức trả lương",
+      "content_zh": "工資應全額直接給付勞工。但法令另有規定者，不在此限。",
+      "content_vi": "Tiền lương phải được trả toàn bộ trực tiếp cho người lao động. Tuy nhiên, trừ khi có quy định khác của pháp luật.",
+      "difficulty_level": 2,
+      "key_terms": ["工資", "全額", "直接給付"],
+      "translation_quality": "excellent",
+      "notes": "Quy định về cách thức trả lương"
+    },
+    {
+      "id": 3,
+      "law_type": "勞動基準法",
+      "article_number": "第30條",
+      "title_zh": "工作時間",
+      "title_vi": "Giờ làm việc",
+      "content_zh": "勞工正常工作時間，每日不得超過八小時，每週不得超過四十小時。",
+      "content_vi": "Giờ làm việc bình thường của người lao động, mỗi ngày không được quá 8 giờ, mỗi tuần không được quá 40 giờ.",
+      "difficulty_level": 1,
+      "key_terms": ["正常工作時間", "八小時", "四十小時"],
+      "translation_quality": "excellent",
+      "notes": "Quy định cơ bản về giờ làm việc"
+    },
+    {
+      "id": 4,
+      "law_type": "勞動基準法",
+      "article_number": "第32條",
+      "title_zh": "加班時間",
+      "title_vi": "Giờ làm thêm",
+      "content_zh": "雇主有使勞工在正常工作時間以外工作之必要者，雇主經工會同意，如事業單位無工會者，經勞資會議同意後，得將工作時間延長之。",
+      "content_vi": "Khi người sử dụng lao động cần cho người lao động làm việc ngoài giờ làm việc bình thường, sau khi được công đoàn đồng ý, hoặc nếu đơn vị không có công đoàn thì được hội nghị lao động đồng ý, có thể kéo dài giờ làm việc.",
+      "difficulty_level": 3,
+      "key_terms": ["正常工作時間以外", "工會同意", "勞資會議"],
+      "translation_quality": "good",
+      "notes": "Quy định phức tạp về làm thêm giờ"
+    },
+    {
+      "id": 5,
+      "law_type": "勞動基準法",
+      "article_number": "第36條",
+      "title_zh": "休息日",
+      "title_vi": "Ngày nghỉ",
+      "content_zh": "勞工每七日中至少應有一日之休息，作為例假。",
+      "content_vi": "Người lao động trong mỗi 7 ngày ít nhất phải có 1 ngày nghỉ, làm ngày nghỉ thường lệ.",
+      "difficulty_level": 1,
+      "key_terms": ["每七日", "至少", "例假"],
+      "translation_quality": "excellent",
+      "notes": "Quy định về ngày nghỉ hàng tuần"
+    },
+    {
+      "id": 6,
+      "law_type": "勞動基準法",
+      "article_number": "第38條",
+      "title_zh": "特別休假",
+      "title_vi": "Nghỉ phép đặc biệt",
+      "content_zh": "勞工在同一雇主或事業單位，繼續工作滿一定期間者，每年應依左列規定給予特別休假。",
+      "content_vi": "Người lao động làm việc liên tục cho cùng một người sử dụng lao động hoặc đơn vị trong một thời gian nhất định, mỗi năm phải được nghỉ phép đặc biệt theo quy định sau đây.",
+      "difficulty_level": 3,
+      "key_terms": ["同一雇主", "繼續工作", "特別休假"],
+      "translation_quality": "good",
+      "notes": "Quy định về nghỉ phép theo thâm niên"
+    },
+    {
+      "id": 7,
+      "law_type": "就業服務法",
+      "article_number": "第42條",
+      "title_zh": "外國人工作許可",
+      "title_vi": "Giấy phép lao động cho người nước ngoài",
+      "content_zh": "外國人未經雇主申請許可，不得在中華民國境內工作。",
+      "content_vi": "Người nước ngoài không được làm việc trong lãnh thổ Trung Hoa Dân Quốc nếu chưa được người sử dụng lao động đăng ký phép.",
+      "difficulty_level": 2,
+      "key_terms": ["外國人", "申請許可", "境內工作"],
+      "translation_quality": "excellent",
+      "notes": "Quy định cơ bản về lao động nước ngoài"
+    },
+    {
+      "id": 8,
+      "law_type": "就業服務法",
+      "article_number": "第43條",
+      "title_zh": "工作許可條件",
+      "title_vi": "Điều kiện giấy phép lao động",
+      "content_zh": "雇主聘僱外國人從事工作，應檢具有關文件，向中央主管機關申請許可。",
+      "content_vi": "Người sử dụng lao động thuê người nước ngoài làm việc, phải nộp các tài liệu liên quan, đăng ký phép với cơ quan chủ quản trung ương.",
+      "difficulty_level": 3,
+      "key_terms": ["聘僱外國人", "檢具文件", "中央主管機關"],
+      "translation_quality": "good",
+      "notes": "Thủ tục đăng ký giấy phép lao động"
+    },
+    {
+      "id": 9,
+      "law_type": "勞工保險條例",
+      "article_number": "第6條",
+      "title_zh": "保險對象",
+      "title_vi": "Đối tượng bảo hiểm",
+      "content_zh": "年滿十五歲以上，六十五歲以下之勞工，應以其雇主或所屬團體為投保單位，參加勞工保險。",
+      "content_vi": "Người lao động từ 15 tuổi trở lên, dưới 65 tuổi, phải lấy người sử dụng lao động hoặc tổ chức thuộc về làm đơn vị đóng bảo hiểm, tham gia bảo hiểm lao động.",
+      "difficulty_level": 2,
+      "key_terms": ["年滿十五歲", "投保單位", "勞工保險"],
+      "translation_quality": "excellent",
+      "notes": "Quy định về đối tượng tham gia bảo hiểm"
+    },
+    {
+      "id": 10,
+      "law_type": "勞工保險條例",
+      "article_number": "第13條",
+      "title_zh": "保險費率",
+      "title_vi": "Tỷ lệ phí bảo hiểm",
+      "content_zh": "勞工保險之保險費率，由中央主管機關按被保險人當月投保薪資，依左列規定計算之。",
+      "content_vi": "Tỷ lệ phí bảo hiểm lao động, do cơ quan chủ quản trung ương căn cứ vào mức lương đóng bảo hiểm của người được bảo hiểm trong tháng, tính theo quy định sau đây.",
+      "difficulty_level": 3,
+      "key_terms": ["保險費率", "投保薪資", "計算"],
+      "translation_quality": "good",
+      "notes": "Quy định về tính phí bảo hiểm"
+    }
+  ],
+  "translation_quality_levels": {
+    "excellent": "Xuất sắc - Dịch chính xác, dễ hiểu",
+    "good": "Tốt - Dịch đúng nghĩa, có thể cải thiện",
+    "fair": "Khá - Dịch đúng cơ bản, cần chỉnh sửa",
+    "poor": "Kém - Dịch không chính xác, cần dịch lại"
+  },
+  "difficulty_levels": {
+    "1": "Dễ - Từ vựng cơ bản, cấu trúc đơn giản",
+    "2": "Trung bình - Từ vựng chuyên ngành, cấu trúc phức tạp hơn",
+    "3": "Khó - Thuật ngữ pháp lý phức tạp, cấu trúc phức tạp"
+  },
+  "metadata": {
+    "total_translations": 10,
+    "last_updated": "2024-01-15",
+    "version": "1.0",
+    "description": "Bản dịch mẫu các điều luật quan trọng cho hệ thống AI translation"
+  }
+}

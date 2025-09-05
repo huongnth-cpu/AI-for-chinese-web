@@ -1,0 +1,175 @@
+{
+  "legal_terms": [
+    {
+      "id": 1,
+      "term_zh": "工資",
+      "term_vi": "tiền lương",
+      "definition_zh": "勞工因工作而獲得之報酬",
+      "definition_vi": "Số tiền mà người lao động nhận được từ người sử dụng lao động",
+      "category": "salary",
+      "difficulty": "beginner",
+      "examples": [
+        "基本工資 (lương cơ bản)",
+        "加班費 (tiền làm thêm giờ)",
+        "獎金 (thưởng)"
+      ],
+      "related_terms": ["薪資", "報酬", "工錢"],
+      "usage_context": "Hợp đồng lao động, Bảng lương, Tranh chấp lương"
+    },
+    {
+      "id": 2,
+      "term_zh": "基本工資",
+      "term_vi": "lương cơ bản",
+      "definition_zh": "勞工正常工作時間內應得之最低工資",
+      "definition_vi": "Mức lương tối thiểu mà người lao động nhận được trong giờ làm việc bình thường",
+      "category": "salary",
+      "difficulty": "beginner",
+      "examples": [
+        "基本工資不得低於法定標準 (Lương cơ bản không được thấp hơn tiêu chuẩn pháp định)",
+        "基本工資調整 (Điều chỉnh lương cơ bản)"
+      ],
+      "related_terms": ["最低工資", "法定工資"],
+      "usage_context": "Hợp đồng lao động, Quy định lương"
+    },
+    {
+      "id": 3,
+      "term_zh": "加班費",
+      "term_vi": "tiền làm thêm giờ",
+      "definition_zh": "勞工於正常工作時間外工作所獲得之額外報酬",
+      "definition_vi": "Khoản tiền bổ sung mà người lao động nhận được khi làm việc ngoài giờ làm việc bình thường",
+      "category": "salary",
+      "difficulty": "beginner",
+      "examples": [
+        "平日加班費 (Tiền làm thêm giờ ngày thường)",
+        "假日加班費 (Tiền làm thêm giờ ngày lễ)"
+      ],
+      "related_terms": ["超時工作", "延長工時"],
+      "usage_context": "Bảng lương, Tính toán lương"
+    },
+    {
+      "id": 4,
+      "term_zh": "工作時間",
+      "term_vi": "giờ làm việc",
+      "definition_zh": "勞工實際從事工作之時間",
+      "definition_vi": "Thời gian người lao động thực sự làm việc",
+      "category": "working_hours",
+      "difficulty": "beginner",
+      "examples": [
+        "正常工作時間 (Giờ làm việc bình thường)",
+        "彈性工作時間 (Giờ làm việc linh hoạt)"
+      ],
+      "related_terms": ["工時", "上班時間"],
+      "usage_context": "Hợp đồng lao động, Quy định làm việc"
+    },
+    {
+      "id": 5,
+      "term_zh": "休息日",
+      "term_vi": "ngày nghỉ",
+      "definition_zh": "勞工每週應有之休息時間",
+      "definition_vi": "Thời gian nghỉ ngơi mà người lao động được hưởng mỗi tuần",
+      "category": "leave",
+      "difficulty": "beginner",
+      "examples": [
+        "週休二日 (Nghỉ 2 ngày mỗi tuần)",
+        "國定假日 (Ngày lễ quốc gia)"
+      ],
+      "related_terms": ["假日", "休假"],
+      "usage_context": "Lịch làm việc, Quyền lợi lao động"
+    },
+    {
+      "id": 6,
+      "term_zh": "特別休假",
+      "term_vi": "nghỉ phép đặc biệt",
+      "definition_zh": "勞工依年資享有之帶薪休假",
+      "definition_vi": "Ngày nghỉ có lương mà người lao động được hưởng dựa trên thâm niên làm việc",
+      "category": "leave",
+      "difficulty": "intermediate",
+      "examples": [
+        "年資滿一年享有特別休假 (Làm việc đủ 1 năm được nghỉ phép đặc biệt)",
+        "特別休假未休完可折現 (Nghỉ phép đặc biệt chưa dùng hết có thể đổi thành tiền)"
+      ],
+      "related_terms": ["年假", "帶薪假"],
+      "usage_context": "Quyền lợi lao động, Tính toán nghỉ phép"
+    },
+    {
+      "id": 7,
+      "term_zh": "勞工保險",
+      "term_vi": "bảo hiểm lao động",
+      "definition_zh": "政府為保障勞工生活而設立之社會保險制度",
+      "definition_vi": "Hệ thống bảo hiểm xã hội do chính phủ thiết lập để bảo vệ đời sống người lao động",
+      "category": "insurance",
+      "difficulty": "intermediate",
+      "examples": [
+        "勞工保險費 (Phí bảo hiểm lao động)",
+        "勞工保險給付 (Quyền lợi bảo hiểm lao động)"
+      ],
+      "related_terms": ["社會保險", "就業保險"],
+      "usage_context": "Bảo hiểm xã hội, Quyền lợi lao động"
+    },
+    {
+      "id": 8,
+      "term_zh": "外國人工作許可",
+      "term_vi": "giấy phép lao động cho người nước ngoài",
+      "definition_zh": "外國人在台灣工作所需之官方許可文件",
+      "definition_vi": "Tài liệu phép chính thức mà người nước ngoài cần để làm việc tại Đài Loan",
+      "category": "work_permit",
+      "difficulty": "advanced",
+      "examples": [
+        "申請外國人工作許可 (Đăng ký giấy phép lao động cho người nước ngoài)",
+        "工作許可到期需重新申請 (Giấy phép lao động hết hạn cần đăng ký lại)"
+      ],
+      "related_terms": ["工作證", "居留證"],
+      "usage_context": "Lao động nước ngoài, Thủ tục pháp lý"
+    },
+    {
+      "id": 9,
+      "term_zh": "就業服務機構",
+      "term_vi": "cơ quan dịch vụ việc làm",
+      "definition_zh": "提供就業媒合服務之專業機構",
+      "definition_vi": "Tổ chức chuyên nghiệp cung cấp dịch vụ kết nối việc làm",
+      "category": "employment_service",
+      "difficulty": "intermediate",
+      "examples": [
+        "公立就業服務機構 (Cơ quan dịch vụ việc làm công lập)",
+        "私立就業服務機構 (Cơ quan dịch vụ việc làm tư nhân)"
+      ],
+      "related_terms": ["人力仲介", "就業中心"],
+      "usage_context": "Dịch vụ việc làm, Tìm kiếm việc làm"
+    },
+    {
+      "id": 10,
+      "term_zh": "勞動契約",
+      "term_vi": "hợp đồng lao động",
+      "definition_zh": "勞工與雇主間約定工作條件之書面協議",
+      "definition_vi": "Thỏa thuận bằng văn bản giữa người lao động và người sử dụng lao động về điều kiện làm việc",
+      "category": "contract",
+      "difficulty": "beginner",
+      "examples": [
+        "簽訂勞動契約 (Ký kết hợp đồng lao động)",
+        "勞動契約終止 (Chấm dứt hợp đồng lao động)"
+      ],
+      "related_terms": ["工作合約", "僱傭契約"],
+      "usage_context": "Quan hệ lao động, Quyền và nghĩa vụ"
+    }
+  ],
+  "categories": {
+    "salary": "Lương thưởng",
+    "working_hours": "Giờ làm việc",
+    "leave": "Nghỉ phép",
+    "insurance": "Bảo hiểm",
+    "work_permit": "Giấy phép lao động",
+    "employment_service": "Dịch vụ việc làm",
+    "contract": "Hợp đồng"
+  },
+  "difficulty_levels": {
+    "beginner": "Cơ bản",
+    "intermediate": "Trung cấp",
+    "advanced": "Nâng cao"
+  },
+  "metadata": {
+    "total_terms": 10,
+    "last_updated": "2024-01-15",
+    "version": "1.0",
+    "description": "Từ điển thuật ngữ pháp luật lao động cơ bản cho người Việt tại Đài Loan"
+  }
+}
