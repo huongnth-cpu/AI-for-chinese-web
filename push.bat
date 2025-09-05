@@ -30,6 +30,6 @@ echo.
 echo ========================================
 echo   Successfully pushed to GitHub!
 echo ========================================
-echo Repository: https://github.com/huongnth-cpu/viet-tai-law-ai.git
+echo Repository: https://github.com/huongnth-cpu/AI-for-chinese-web.git
 echo.
 pause
