@@ -278,3 +278,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 **Made with ❤️ for Vietnamese workers in Taiwan**
+No changes to commit. Creating initial commit...
+- AI translation (Chinese to Vietnamese
+- Legal terms dictionary 
+- User-friendly interface 
+ 
+## Setup 
+1. Clone the repository 
+2. Run docker-compose up 
+3. Access the application at http://localhost:3000 
